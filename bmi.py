@@ -5,7 +5,7 @@ class BMI:
 
     def caluculate_bmi(self):
         # bmiを計算するメソッド
-        return self.weight / ((self.height**2))
+        return round(self.weight / ((self.height**2)), 2)
 
 
 # BMIクラスのインスタンス化
